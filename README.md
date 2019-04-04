@@ -4,15 +4,17 @@
 
 ### About the project
 
+:construction: **This project is still under construction, we are continually developing this** :construction:
+
 This is a React Native application. Actually, here we have a boilerplate in which we gather the main libraries used in the development of practical solutions for hackathons,  totally ready to be modified and used.
 
-The version of  that we are using is React Native 0.59.3
+The version that we are using is React Native 0.59.3
 
-This **project are under construction and in constant change** but I still invite you, to contribute to this. You can find more in **contribute** section
+This **project is under construction and in constant change** but I still invite you, to contribute to this. You can find more in **contribute** section
  
 ### Installation
 
-This application needs [Node.js](https://nodejs.org/) installed together with [NPM](https://www.npmjs.com/get-npm) so you will be able to install [react-native-cli](https://www.npmjs.com/package/react-native-cli) and afther this you can execute the commands below
+This application needs [Node.js](https://nodejs.org/) installed together with [NPM](https://www.npmjs.com/get-npm) so you will be able to install [react-native-cli](https://www.npmjs.com/package/react-native-cli) and after this you can execute the commands below
 
 In addition, it will be necessary for you to have all the necessary environment for running native Android or IOS or both platforms
 
@@ -47,7 +49,7 @@ The documentation is divided into several sections with a different tone and pur
 
 **Clone project**
 
-Clone this repository using ```git clone```
+Clone this repository
 
 **Create a branch**
 
