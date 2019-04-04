@@ -1,14 +1,14 @@
 # react-native-hackathon-boilerplate
 
-# react-native-hackathon-boilerplate
-
 **Here in Shawee, we f\*cking love React Native!**
 
 ### About the project
 
+:construction: **This project is still under construction, we are continually developing this** :construction:
+
 This is a React Native application. Actually, this is a boilerplate where we gather the main libraries used in the development of practical solutions for hackathons, totally ready to be modified and used.
 
-This version use React Native 0.59.3.
+This project uses React Native 0.59.3
 
 This **project is under construction and in constant change**, but we already invite you to contribute to this. You can find more in **Contributing** section. 
  
