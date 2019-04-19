@@ -5564,6 +5564,13 @@ react-native-animatable@^1.3.2:
   dependencies:
     prop-types "^15.5.10"
 
+react-native-camera@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/react-native-camera/-/react-native-camera-2.6.0.tgz#bf97b0fc68aa8732d815e9bbd92e63529f51d598"
+  integrity sha512-g0Hi4yhUg1yBsYbW9aLxVaX+rgl9sKrrDAGF6difiRTvwCUEqlID2DosLCQQPkLSniJHVa8gc+SwCegahU23aA==
+  dependencies:
+    prop-types "^15.6.2"
+
 react-native-geocoding@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/react-native-geocoding/-/react-native-geocoding-0.3.0.tgz#7987ad98f52b2b5a912688e80347f5222861f2a9"
