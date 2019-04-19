@@ -22,9 +22,9 @@ export default class AuthLoadingScreen extends Component {
 
   async componentDidMount() {
 
-    await AsyncStorage.setItem('@DesignBooks:username', 'Matheus');
+    await AsyncStorage.setItem('@AppHackathonBoilerplate:username', 'Matheus');
 
-    const username = await AsyncStorage.getItem('@DesignBooks:username');
+    const username = await AsyncStorage.getItem('@AppHackathonBoilerplate:username');
 
     await this.appLoaded(username);
 
