@@ -15,6 +15,7 @@ export default class Welcome extends PureComponent {
             { id: "1", name: "Maps Example" },
             { id: "2", name: "StackNavigator Example" },
             { id: "3", name: "TabNavigator Example" },
+            { id: "4", name: "DrawerNavigator Example" },
 
         ]
 
@@ -36,6 +37,10 @@ export default class Welcome extends PureComponent {
 
         else if (item.id == 3) {
             this.props.navigation.navigate('TabNavigator');
+        }
+
+        else if (item.id == 4) {
+            this.props.navigation.navigate('DrawerNavigator');
         }
 
         console.log('Selected Item : ' + item.id)
