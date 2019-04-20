@@ -6,7 +6,7 @@ import Register from "./pages/Register";
 import MapsScreen from "./pages/Maps";
 import Camera from "./pages/Camera";
 import CameraQRCode from "./pages/CameraQRCode";
-import StackNavigator from "./pages/StackNavigator";
+import StackNavigator from "./pages/StackNavigator/StackNavigator";
 import DrawerNavigator from "./pages/DrawerNavigator";
 import TabNavigator from "./pages/TabNavigator";
 import Welcome from "./pages/Welcome";

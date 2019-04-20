@@ -11,8 +11,9 @@ export default class Welcome extends PureComponent {
 
         data: [
 
-            { id: "0", name: "Camera" },
-            { id: "1", name: "Maps" },
+            { id: "0", name: "Camera Example" },
+            { id: "1", name: "Maps Example" },
+            { id: "2", name: "StackNavigator Example" },
 
         ]
 
@@ -28,6 +29,10 @@ export default class Welcome extends PureComponent {
             this.props.navigation.navigate('MapsScreen');
         }
 
+        else if (item.id == 2) {
+            this.props.navigation.navigate('StackNavigator');
+        }
+
         console.log('Selected Item : ' + item.id)
     
     }
@@ -41,10 +46,6 @@ export default class Welcome extends PureComponent {
         >
         
         <SafeAreaView>
-
-        <View style={styles.titleContainer}>
-            <Text stlye={styles.title}>Shawee - Hackathon Boilerplate</Text>
-        </View>        
 
         <FlatList
           data={this.state.data}
@@ -93,9 +94,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         height: 50,
-    },
-    title: {
-
     },
     item: {
         alignItems: "center",
