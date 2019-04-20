@@ -11,12 +11,12 @@ export function getPixelSize(pixels) {
 
 export async function getUser() {
 	try {
-		return await AsyncStorage.getItem('@AppHackathon:user');
+		return await AsyncStorage.getItem('@AppHackathonBoilerplate:user');
 	} catch (e) {
 		throw e
 	}
 };
 
 export const storeUser = async user => {
-	return AsyncStorage.setItem('@AppHackathon:user', JSON.stringify(user))
+	return AsyncStorage.setItem('@AppHackathonBoilerplate:user', JSON.stringify(user))
 };
