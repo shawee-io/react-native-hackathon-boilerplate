@@ -12,6 +12,7 @@ export default class Welcome extends PureComponent {
         data: [
 
             { id: "0", name: "Camera Example" },
+            { id: "5", name: "Camera QRCode Example" },
             { id: "1", name: "Maps Example" },
             { id: "2", name: "StackNavigator Example" },
             { id: "3", name: "TabNavigator Example" },
@@ -25,6 +26,10 @@ export default class Welcome extends PureComponent {
 
         if (item.id == 0) {
             this.props.navigation.navigate('Camera');
+        }
+
+        else if (item.id == 5) {
+            this.props.navigation.navigate('CameraQRCode');
         }
 
         else if (item.id == 1) {
