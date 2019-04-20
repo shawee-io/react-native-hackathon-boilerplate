@@ -14,6 +14,7 @@ export default class Welcome extends PureComponent {
             { id: "0", name: "Camera Example" },
             { id: "1", name: "Maps Example" },
             { id: "2", name: "StackNavigator Example" },
+            { id: "3", name: "TabNavigator Example" },
 
         ]
 
@@ -31,6 +32,10 @@ export default class Welcome extends PureComponent {
 
         else if (item.id == 2) {
             this.props.navigation.navigate('StackNavigator');
+        }
+
+        else if (item.id == 3) {
+            this.props.navigation.navigate('TabNavigator');
         }
 
         console.log('Selected Item : ' + item.id)
@@ -108,4 +113,5 @@ const styles = StyleSheet.create({
     text: {
         color: "#000"
     }
+
 });
