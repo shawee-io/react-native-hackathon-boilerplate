@@ -22,8 +22,8 @@ export default class AuthLoadingScreen extends Component {
 
   async componentDidMount() {
 
-    await AsyncStorage.setItem('@AppHackathonBoilerplate:username', 'Matheus');
-
+    // await AsyncStorage.clear()
+    
     const username = await AsyncStorage.getItem('@AppHackathonBoilerplate:username');
 
     await this.appLoaded(username);

@@ -48,7 +48,7 @@ const AuthStack = createStackNavigator(
 
 const AuthStackContainer = createAppContainer(AuthStack);
 
-const RootStack = createSwitchNavigator(
+const RootStack = createStackNavigator(
 	{
 		AuthLoading: { screen: AuthLoadingScreen },
 		App: { screen: AppStackContainer },

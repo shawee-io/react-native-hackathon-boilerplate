@@ -79,6 +79,10 @@ export default class Welcome extends PureComponent {
             );
           }}
         />
+
+        <TouchableWithoutFeedback onPress={() => this.props.navigation.navigate('Login')}>
+            <Text>Login</Text>  
+        </TouchableWithoutFeedback>
         
       </SafeAreaView>
 
