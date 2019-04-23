@@ -35,7 +35,7 @@ export default class AuthLoadingScreen extends Component {
             index: 0,
             actions: [
 
-                NavigationActions.navigate({ routeName: 'Welcome' }),
+              NavigationActions.navigate({ routeName: 'App' }),
 
             ]
 
@@ -51,7 +51,7 @@ export default class AuthLoadingScreen extends Component {
             index: 0,
             actions: [
 
-                NavigationActions.navigate({ routeName: 'Auth' }),
+              NavigationActions.navigate({ routeName: 'Auth' }),
 
             ]
 
