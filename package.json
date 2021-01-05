@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-plugin-idx": "^2.4.0",
     "haversine": "^1.1.1",
     "jsdom": "^14.0.0",
